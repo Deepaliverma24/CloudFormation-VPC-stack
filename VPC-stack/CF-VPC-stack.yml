@@ -5,9 +5,8 @@ Description: >-
     A NAT Gateway is used to provide egress for private subnets.
     The VPC and subnets are exported for use by other stacks.
 
-
 Resources:
-
+    # VPC 
   VPC:
     Type: AWS::EC2::VPC
     Properties:
